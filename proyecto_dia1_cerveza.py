@@ -1,0 +1,1 @@
+print("Cervezas " + input("¿Como te llamas?") + " desde " + input("Año primera cerveza") + ". Si bebes no mandes whatsapp")

@@ -1,0 +1,16 @@
+texto = input("Ingrese un texto")
+letra1 = input(("Ingrese una letra")).lower()
+letra2 = input(("Ingrese otra letra")).lower()
+letra3 = input(("Ingrese otra letra")).lower()
+lista_letras=[letra1,letra2,letra3]
+print("La letra {} aparece {} veces.".format(letra1,texto.count(letra1)))
+print("La letra {} aparece {} veces.".format(letra2,texto.count(letra2)))
+print("La letra {} aparece {} veces.".format(letra3,texto.count(letra3)))
+lista_texto = texto.split()
+print("El texto tiene {} palabras".format(len(lista_texto)))
+print("La primera letra es {} y la última {}".format(texto[0],texto[-1]))
+lista_texto2 = lista_texto
+lista_texto2.reverse()
+lista_texto2 = " ".join(lista_texto2)
+print("Texto invertido (palabras): {}".format(lista_texto2))
+print("La palabra Python aparece: {}".format("Python" in lista_texto))
